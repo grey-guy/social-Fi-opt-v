@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const aligntype = require('aligntype');
+aligntype();
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
